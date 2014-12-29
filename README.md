@@ -9,13 +9,14 @@ http://tablesorter.com/docs/
 
 arguments
 ---------
-id: targets the id of a <table> element in the DOM
-json: an ESRI feature service json endpoint
-attributes: an array of name:value pairs consisting of field names and aliases
+id: targets the id of a ```<table>``` element in the DOM  
+json: an ESRI feature service json endpoint  
+attributes: an array of name:value pairs consisting of field names and aliases  
 
 example
 -------
-<body>
+```html
+//<body>
   <table class="table table-hover tablesorter" id="srno-table"></table>
 </body>
 <script>
@@ -27,3 +28,4 @@ example
     "Email": "Email"
   });
 </script>
+```
