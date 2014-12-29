@@ -1,22 +1,19 @@
-esriFeatureServiceTableBuilder
-==============================
+HTML Table Builder for ESRI Feature Services
+===========================================
 
-dependencies
-------------
--jQuery
+##Dependencies
+-jQuery  
 -jQuery Table Sorter:
 http://tablesorter.com/docs/
 
-arguments
----------
-id: targets the id of a ```<table>``` element in the DOM  
-json: an ESRI feature service json endpoint  
-attributes: an array of name:value pairs consisting of field names and aliases  
+##Arguments
+**id:** targets the id of a ```<table>``` element in the DOM  
+**json:** an ESRI feature service json endpoint  
+**attributes:** an array of name:value pairs consisting of field names and aliases  
 
-example
--------
+##Example
 ```html
-//<body>
+<body>
   <table class="table table-hover tablesorter" id="srno-table"></table>
 </body>
 <script>
