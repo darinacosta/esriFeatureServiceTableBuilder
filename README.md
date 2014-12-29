@@ -3,7 +3,7 @@ HTML Table Builder for ESRI Feature Services
 
 ##Dependencies
 -jQuery  
--jQuery Table Sorter: [jQuery Table Sorter](http://tablesorter.com/docs/)
+-[jQuery Table Sorter](http://tablesorter.com/docs/)
 
 ##Arguments
 **id:** targets the id of a ```<table>``` element in the DOM  
