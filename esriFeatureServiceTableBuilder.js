@@ -26,7 +26,6 @@ buildTableFromEsriFeatureService = function(id, json, attributes){
     init = (function(){
       buildTableHeader();
       buildTableBody();
-      console.log(tableString);
       $(id).html(tableString);
       $(id).tablesorter();
     })();
