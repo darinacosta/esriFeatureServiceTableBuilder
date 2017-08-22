@@ -1,7 +1,7 @@
 HTML Table Builder for ESRI Feature Services
 ===========================================
 
-##Dependencies
+## Dependencies
 -jQuery  
 -[jQuery Table Sorter](http://tablesorter.com/docs/)
 
@@ -10,7 +10,7 @@ HTML Table Builder for ESRI Feature Services
 **json:** an ESRI feature service json endpoint  
 **attributes:** an array of name:value pairs consisting of field names and aliases  
 
-##Example
+## Example
 ```html
 <body>
   <table id="srno-table"></table>
